@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 380px; font-family: sans-serif; background: #f0f2f5; margin: 0; padding: 15px; }
+    h2 { font-size: 16px; color: #075e54; margin-top: 0; text-align: center; }
+    .container { max-height: 400px; overflow-y: auto; padding-right: 5px; }
+    .campo { margin-bottom: 12px; background: white; padding: 10px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    label { display: block; font-weight: bold; font-size: 11px; margin-bottom: 5px; color: #444; }
+    textarea { width: 100%; height: 60px; border: 1px solid #ddd; border-radius: 4px; resize: vertical; font-size: 12px; padding: 5px; box-sizing: border-box; }
+    
+    /* Estilo para os botões extras */
+    .item-extra { background: #e7f3ff; border: 1px dashed #34B7F1; padding: 10px; border-radius: 8px; margin-top: 10px; position: relative; }
+    .extra-nome { width: 100%; margin-bottom: 5px; font-weight: bold; padding: 5px; box-sizing: border-box; }
+    
+    #btn-adicionar { background: #34B7F1; color: white; border: none; padding: 10px; width: 100%; cursor: pointer; border-radius: 5px; margin-top: 10px; font-weight: bold; }
+    #btn-salvar { background: #25D366; color: white; border: none; padding: 15px; width: 100%; cursor: pointer; border-radius: 5px; font-weight: bold; font-size: 14px; margin-top: 20px; }
+    .btn-remover { color: red; cursor: pointer; font-size: 12px; font-weight: bold; border: none; background: none; position: absolute; right: 5px; top: 5px; }
+  </style>
+</head>
+<body>
+  <h2>⚙️ Configuração de Atalhos</h2>
+  
+  <div class="container">
+    <div class="campo"><label>👋 Início:</label><textarea id="apresentacao"></textarea></div>
+    <div class="campo"><label>🚂 Valores:</label><textarea id="valor"></textarea></div>
+    <div class="campo"><label>📋 Dados:</label><textarea id="documentos"></textarea></div>
+    <div class="campo"><label>📅 Rema:</label><textarea id="remarcacao"></textarea></div>
+    <div class="campo"><label>💸 Estorno:</label><textarea id="estorno"></textarea></div>
+    <div class="campo"><label>💰 Pix:</label><textarea id="pix"></textarea></div>
+    <div class="campo"><label>💳 Cartão:</label><textarea id="cartao"></textarea></div>
+    <div class="campo"><label>📑 Autorização:</label><textarea id="autorizacao"></textarea></div>
+    <div class="campo"><label>📎 Anexo:</label><textarea id="anexo"></textarea></div>
+    <div class="campo"><label>📲 App:</label><textarea id="app"></textarea></div>
+
+    <hr>
+    <div style="font-weight: bold; font-size: 13px; color: #34B7F1;">🚀 Meus Botões Extras</div>
+    <div id="container-extras"></div>
+    <button id="btn-adicionar">+ Adicionar Novo Botão</button>
+  </div>
+
+  <button id="btn-salvar">SALVAR E ATUALIZAR</button>
+  <p style="font-size: 10px; text-align: center; color: #666;">Deixe em branco para usar o padrão da empresa.</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
