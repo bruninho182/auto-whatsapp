@@ -3,6 +3,11 @@ Esta extensão foi desenvolvida para otimizar o atendimento ao cliente via Whats
 
 Por: Bruno Ferreira
 
+![Preview](/exemplos/1.jpg)
+
+![Preview](/exemplos/2.jpg)
+
+
 ✨ Funcionalidades
 Menu Lateral Integrado: Botões de acesso rápido injetados na interface do WhatsApp Web.
 
@@ -65,3 +70,4 @@ Clique em SALVAR E ATUALIZAR e dê F5 no WhatsApp Web.
 v1.2: Adicionada função de botões extras dinâmicos e compatibilidade com Firefox.
 
 v1.1: Implementação do sistema de armazenamento local.
+
