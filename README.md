@@ -1,5 +1,6 @@
 🚀 Extensão de Atalhos para Whatsapp - Atendimento ICD
 Esta extensão foi desenvolvida para otimizar o atendimento ao cliente via WhatsApp Web, permitindo a inserção rápida de textos pré-definidos e personalizados.
+Google Chrome/Microsoft Edge/Opera GX/Brave/FireFox.
 
 Por: Bruno Ferreira
 
@@ -70,5 +71,6 @@ Mozilla Firefox
 - v1.2: Adicionada função de botões extras dinâmicos e compatibilidade com Firefox.
 
 - v1.1: Implementação do sistema de armazenamento local.
+
 
 
