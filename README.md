@@ -6,6 +6,8 @@ Navegadores suportados: Google Chrome, Microsoft Edge, Opera GX, Brave e Mozilla
 
 ![Preview](/exe.gif)
 
+![Preview](/1.jpg)
+
 
 ✨ Funcionalidades Atualizadas
 - Menu Inteligente e Arrastável: Clique e arraste o menu para qualquer lugar da tela para não atrapalhar a sua visão das conversas.
@@ -79,5 +81,6 @@ Plaintext
 - v1.2: Adicionada função de botões extras dinâmicos e compatibilidade com Firefox.
 
 - v1.1: Implementação do sistema de armazenamento local (storage.local).
+
 
 
