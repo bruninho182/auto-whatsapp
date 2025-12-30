@@ -79,3 +79,4 @@ Plaintext
 - v1.2: Adicionada função de botões extras dinâmicos e compatibilidade com Firefox.
 
 - v1.1: Implementação do sistema de armazenamento local (storage.local).
+
