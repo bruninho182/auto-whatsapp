@@ -56,13 +56,13 @@ Mozilla Firefox
 📂 Estrutura de Arquivos
 Plaintext
 
-├── manifest.json   # Configurações de permissões e ícones
-├── content.js      # Lógica do menu, arrastar, salvar posição e injeção de texto
-├── popup.html      # Interface do painel de personalização
-├── popup.js        # Lógica para salvar textos e botões extras
-├── styles.css      # Design do menu, animações e layouts
-├── icon.png        # Identidade visual da extensão
-└── README.md       # Documentação do projeto
+- ├── manifest.json   # Configurações de permissões e ícones
+- ├── content.js      # Lógica do menu, arrastar, salvar posição e injeção de texto
+- ├── popup.html      # Interface do painel de personalização
+- ├── popup.js        # Lógica para salvar textos e botões extras
+- ├── styles.css      # Design do menu, animações e layouts
+- ├── icon.png        # Identidade visual da extensão
+- └── README.md       # Documentação do projeto
 
 📖 Como Personalizar
 - Clique no ícone da peça de puzzle (Extensões) no topo do navegador e fixe a extensão ICD.
@@ -79,4 +79,5 @@ Plaintext
 - v1.2: Adicionada função de botões extras dinâmicos e compatibilidade com Firefox.
 
 - v1.1: Implementação do sistema de armazenamento local (storage.local).
+
 
