@@ -1,85 +1,69 @@
-🚀 Extensão de Atalhos para Whatsapp - Atendimento ICD
-Esta extensão foi desenvolvida para otimizar o atendimento ao cliente via WhatsApp Web, permitindo a inserção rápida de textos pré-definidos e personalizados, garantindo agilidade e padronização.
+🚀 Extensão de Atalhos para Whatsapp - Atendimento ICD Pro
+Esta extensão foi desenvolvida para otimizar o atendimento ao cliente via WhatsApp Web, permitindo a gestão total de atalhos personalizados com suporte a textos e imagens, garantindo agilidade e padronização.
 
-- Desenvolvido por: Bruno Ferreira 
-- Navegadores suportados: Google Chrome, Microsoft Edge, Opera GX, Brave e Mozilla Firefox.
+Desenvolvido por: Bruno Ferreira
 
-![Preview](exemplos/exe.gif)
+Navegadores suportados: Google Chrome, Microsoft Edge, Opera GX, Brave.
 
+✨ Funcionalidades Atualizadas (v1.6)
+Painel "Folha em Branco": Liberdade total para cada colaborador criar seu próprio fluxo de trabalho do zero.
 
-✨ Funcionalidades Atualizadas
-- Menu Inteligente e Arrastável: Clique e arraste o menu para qualquer lugar da tela para não atrapalhar a sua visão das conversas.
+Arraste de Imagens (Visual Search): Os botões agora podem exibir miniaturas de fotos (tabelas, mapas, QR Codes). Basta clicar para enviar o texto ou clicar e arrastar a imagem diretamente para a conversa para enviá-la como anexo.
 
-- Memória de Posição: A extensão salva automaticamente onde você deixou o menu e como ele estava configurado, mesmo após atualizar a página (F5).
+Reordenação Drag-and-Drop: Organize a prioridade dos seus botões no painel de configurações apenas arrastando os cards para cima ou para baixo.
 
-- Alternância de Layout (🔄): Botão dedicado para alternar o menu entre o modo Vertical (coluna) e Horizontal (linha).
+Menu Inteligente e Arrastável: Posicione o menu flutuante onde desejar na tela para não obstruir a visão das mensagens.
 
-- Textos Oficiais: 10 botões padronizados com as informações cruciais da empresa (Valores, Documentos, Estorno, etc.).
+Memória de Posição e Layout: A extensão salva automaticamente as coordenadas do menu e se ele está em modo Horizontal ou Vertical.
 
-- Personalização e Botões Extras: Cada colaborador pode editar os textos padrão ou criar novos botões totalmente do zero através do painel de configuração.
+Hospedagem Externa: Suporte para links de imagens externas (PostImages, ImgBB, etc.), mantendo a extensão leve e rápida.
 
-- Formatação Inteligente: Sistema que preserva quebras de linha, espaçamentos e emojis.
+🔒 Segurança e LGPD
+Armazenamento 100% Local: Todos os dados, textos e links são guardados exclusivamente no navegador do usuário (chrome.storage.local). Nada é enviado para servidores externos.
 
-🔒 Segurança e LGPD (Lei Geral de Proteção de Dados)
-- Esta extensão foi concebida respeitando rigorosamente os princípios de privacidade:
+Privacidade Total: A extensão não lê suas conversas; ela apenas injeta os textos que você definiu nos campos de digitação.
 
-- Armazenamento 100% Local: Todos os textos e preferências são guardados apenas no navegador do utilizador (chrome.storage.local). Nenhum dado é enviado para servidores externos ou nuvem.
-
-- Privacidade do Cliente: O atalho de "Documentos" inclui o link direto para a Política de Privacidade oficial da empresa.
-
-- Responsabilidade: Lembre-se que dados sensíveis recebidos de clientes devem ser tratados conforme as diretrizes de segurança da ICD.
-
-💡 Boas Práticas de Atendimento
-- Conferência Final: Sempre revise o texto injetado antes de enviar. Campos com "----" ou espaços em branco precisam de preenchimento manual de acordo com o caso do cliente.
-
-- Segurança Bancária: Ao solicitar fotos de cartão, oriente o cliente a cobrir os números centrais e o código CVV. Solicite apenas os 6 primeiros dígitos e o nome do titular para validação.
-
-- Manutenção: Caso os valores das atrações mudem, substitua o arquivo content.js pela versão atualizada fornecida pelo administrador.
+Responsabilidade: Dados sensíveis de clientes devem ser tratados conforme as diretrizes de segurança da ICD.
 
 🛠️ Como Instalar
-Navegadores Base Chromium (Chrome, Edge, Opera, Brave)
-- Acesse a página de extensões do seu navegador (ex: chrome://extensions/).
+Acesse a página de extensões do seu navegador (ex: chrome://extensions/).
 
-- Ative o Modo do Programador (Developer Mode).
+Ative o Modo do Desenvolvedor (Developer Mode).
 
-- Clique em Carregar sem compactação (Load unpacked).
+Clique em Carregar sem compactação (Load unpacked).
 
-- Selecione a pasta raiz do projeto.
+Selecione a pasta raiz onde estão os arquivos da extensão.
 
-Mozilla Firefox
-- Acesse about:debugging e clique em Este Firefox.
-
-- Clique em Carregar extensão temporária....
-
-- Selecione o arquivo manifest.json.
+Importante: Após instalar, clique no ícone da extensão e salve seu primeiro botão para ativar o painel no WhatsApp.
 
 📂 Estrutura de Arquivos
 Plaintext
 
-- ├── manifest.json   # Configurações de permissões e ícones
-- ├── content.js      # Lógica do menu, arrastar, salvar posição e injeção de texto
-- ├── popup.html      # Interface do painel de personalização
-- ├── popup.js        # Lógica para salvar textos e botões extras
-- ├── styles.css      # Design do menu, animações e layouts
-- ├── icon.png        # Identidade visual da extensão
-- └── README.md       # Documentação do projeto
+├── manifest.json    # Configurações de ícones e permissões
+├── content.js      # Lógica de arraste de imagens, menu flutuante e injeção
+├── popup.html      # Interface de configuração (Drag-and-Drop)
+├── popup.js        # Lógica de reordenação e salvamento da lista master
+├── styles.css      # Design responsivo, animações e miniaturas
+├── icon.png        # Identidade visual da extensão
+└── README.md       # Documentação do projeto
+📖 Como Personalizar e Usar
+Criar Botões: Clique no ícone da extensão e use o botão + Adicionar Novo Botão.
 
-📖 Como Personalizar
-- Clique no ícone da peça de puzzle (Extensões) no topo do navegador e fixe a extensão ICD.
+Definir Ordem: Segure no ícone ☰ e arraste o card para a posição desejada.
 
-- Abra o painel da extensão para editar os textos padrão.
+Inserir Imagens: Cole o "Link Direto" de uma imagem (ex: final .jpg ou .png) no campo de link.
 
-- Para novos atalhos, clique em "+ Adicionar Novo Botão", dê um nome e escreva o texto.
+Enviar no WhatsApp:
 
-- Clique em SALVAR E ATUALIZAR e reinicie o WhatsApp Web.
+Clique no Botão: Injeta o texto configurado.
+
+Arraste a Miniatura: Envia a foto configurada como anexo para o cliente.
+
+Salvar: Sempre clique em SALVAR ALTERAÇÕES e atualize o WhatsApp (F5).
 
 📝 Notas de Versão
-- v1.3: Implementação de menu arrastável, alternância de orientação (horizontal/vertical) e salvamento automático de coordenadas de tela.
+v1.6: Implementação de suporte a imagens arrastáveis, reordenação de botões por drag-and-drop no popup e interface "clean" para personalização total.
 
-- v1.2: Adicionada função de botões extras dinâmicos e compatibilidade com Firefox.
+v1.3: Menu flutuante com memória de posição e alternância de orientação (Horizontal/Vertical).
 
-- v1.1: Implementação do sistema de armazenamento local (storage.local).
-
-
-
-
+v1.0: Lançamento inicial com injeção de texto e armazenamento local.
